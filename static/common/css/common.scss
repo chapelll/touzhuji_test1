@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'DIN Pro Cond';
+     src: url('~@/static/common/font/DINPro-CondBold.otf');
+}
+.font-din{
+	font-family: 'DIN Pro Cond';
+}
+// 功能尚在建设中样式
+.no-function {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+
+	.text {
+		margin-top: $u-contentPadding;
+		font-size: 40rpx;
+		font-weight: bold;
+		text-align: center;
+	}
+}
+.common-btn{
+	height: 96rpx;
+	line-height: 96rpx;
+	font-size: 36rpx;
+	text-align: center;
+	color: #FDFDFD;
+	background-color: #0599FF;
+	border-radius: 8rpx;
+}
